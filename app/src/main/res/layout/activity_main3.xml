@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity3">
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginBottom="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="viewNguoiDung"
+            android:src="@drawable/emthree" />
+        <ImageView
+            android:layout_marginBottom="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:onClick="viewListBookActivity"
+            android:src="@drawable/bookicon" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:onClick="ViewTopSach"
+            android:src="@drawable/money_icon" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginBottom="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:onClick="viewTheLoai"
+            android:src="@drawable/cateicon" />
+        <ImageView
+            android:layout_marginBottom="60dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:onClick="ViewListHoaDonActivity"
+            android:src="@drawable/hdicon" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:onClick="ViewThongKeActivity"
+            android:src="@drawable/thongke" />
+    </LinearLayout>
+
+</LinearLayout>
