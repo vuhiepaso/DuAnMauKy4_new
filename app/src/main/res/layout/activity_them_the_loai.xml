@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MenuUngdung.ThemTheLoai">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edMatheloi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã thể Loại"/>
+    <EditText
+        android:id="@+id/edTenTheLoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Thể Loại"/>
+    <EditText
+        android:id="@+id/edVitri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vị Trí"/>
+    <EditText
+        android:id="@+id/edMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô Tả"/>
+        <Button
+            android:onClick="Luu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lưu"/>
+
+
+</LinearLayout>

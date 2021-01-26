@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    tools:context=".MenuUngdung.ThemSach">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edMasach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ma sach"/>
+    <EditText
+        android:id="@+id/edTenSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"/>
+    <EditText
+        android:id="@+id/edTacgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tac gia"/>
+    <EditText
+        android:id="@+id/edNhaXb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nha Xuat Ban"/>
+    <EditText
+        android:id="@+id/edGiaBie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gia Bie"/>
+    <EditText
+        android:id="@+id/edSoLuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="So Luong"/>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="Luu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lưu"/>
+        <Button
+            android:layout_weight="1"
+            android:onClick="huy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"/>
+    </LinearLayout>
+    <Button
+        android:onClick="show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW"/>
+
+</LinearLayout>
